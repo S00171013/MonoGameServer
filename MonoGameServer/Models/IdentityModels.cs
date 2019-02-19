@@ -67,7 +67,7 @@ namespace cgMonoGameServer2015.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("Week5EX1", throwIfV1Schema: false)
         {
             this.Configuration.LazyLoadingEnabled = false;
         }
